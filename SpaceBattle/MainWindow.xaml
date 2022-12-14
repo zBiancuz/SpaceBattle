@@ -1,0 +1,20 @@
+﻿<Window x:Class="SpaceBattle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SpaceBattle"
+        mc:Ignorable="d"
+        Title="SpaceBattle" Height="615" Width="900">
+    <Canvas Background="Black" Name="MyCanvas" KeyDown="onKeyDown" KeyUp="onKeyUp" Focusable="True" Height="600" MaxHeight="600" MaxWidth="900">
+
+        <Rectangle Name="player1" Height="85" Width="85" Fill="Yellow" Canvas.Left="249" Canvas.Top="459"/>
+        <Rectangle Name="player2" Height="85" Width="85" Fill="red" Canvas.Left="576" Canvas.Top="459"/>
+
+        <Label Name="scoreText1" Content="Score: 0" FontSize="18" FontWeight="Bold" Foreground="White"/>
+        <Label Name="scoreText2" Content="Score: 0" FontSize="18" FontWeight="Bold" Canvas.Right="0"  Foreground="White"/>
+        <Label Name="damageText" Content="Damage: 0" FontSize="18" FontWeight="Bold" Canvas.Right="200" Foreground="White"/>
+        <Label Name="TotalScorePlayer" Content="TotalScore: 0" FontSize="18" FontWeight="Bold" Canvas.Right="550" Foreground="White"/>
+
+    </Canvas>
+</Window>
