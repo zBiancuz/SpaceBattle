@@ -28,5 +28,13 @@ namespace SpaceBattle
         {
 
         }
+
+        private void LoadGame(object sender, RoutedEventArgs e)
+        {
+            MainWindow gameWindow = new MainWindow();
+
+            gameWindow.Show();
+
+        }
     }
 }

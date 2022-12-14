@@ -28,3 +28,6 @@ R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.csproj.GenerateResource
 R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.csproj.CoreCompileInputs.cache
 R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.exe
 R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.pdb
+R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.csproj.SuggestedBindingRedirects.cache
+R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\MenuGioco.g.cs
+R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\MenuGioco.baml
