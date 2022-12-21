@@ -31,10 +31,25 @@ namespace SpaceBattle
 
         private void LoadGame(object sender, RoutedEventArgs e)
         {
-            MainWindow gameWindow = new MainWindow();
+            this.Close();
+        }
 
-            gameWindow.Show();
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+            SettingsPage S = new SettingsPage();
+            S.ShowDialog();
+        }
 
+        private void btnHelp_Click(object sender, RoutedEventArgs e)
+        {
+            HelpPage H = new HelpPage();
+            H.ShowDialog();
+        }
+
+        private void btnEsci_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            
         }
     }
 }

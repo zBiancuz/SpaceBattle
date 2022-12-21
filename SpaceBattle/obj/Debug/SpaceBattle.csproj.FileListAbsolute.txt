@@ -48,3 +48,7 @@ C:\Users\teobr\Documents\GitHub\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.cs
 C:\Users\teobr\Documents\GitHub\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.csproj.CoreCompileInputs.cache
 C:\Users\teobr\Documents\GitHub\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.exe
 C:\Users\teobr\Documents\GitHub\SpaceBattle\SpaceBattle\obj\Debug\SpaceBattle.pdb
+R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\SettingsPage.g.cs
+R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\SettingsPage.baml
+R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\HelpPage.g.cs
+R:\Desktop\SpaceBattle\SpaceBattle\obj\Debug\HelpPage.baml

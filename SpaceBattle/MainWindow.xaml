@@ -13,8 +13,8 @@
 
         <Label Name="scoreText1" Content="Score: 0" FontSize="18" FontWeight="Bold" Foreground="White"/>
         <Label Name="scoreText2" Content="Score: 0" FontSize="18" FontWeight="Bold" Canvas.Right="0"  Foreground="White"/>
-        <Label Name="damageText" Content="Damage: 0" FontSize="18" FontWeight="Bold" Canvas.Right="200" Foreground="White"/>
-        <Label Name="TotalScorePlayer" Content="TotalScore: 0" FontSize="18" FontWeight="Bold" Canvas.Right="550" Foreground="White"/>
+        <Label Name="damageText" Content="Damage: 0" FontSize="18" FontWeight="Bold" Canvas.Right="200" Foreground="White" Canvas.Left="391" Canvas.Top="21" HorizontalAlignment="Center" Height="34" VerticalAlignment="Top"/>
+        <Label Name="TotalScorePlayer" Content="TotalScore: 0" FontSize="18" FontWeight="Bold" Canvas.Right="550" Foreground="White" HorizontalAlignment="Left" Canvas.Left="391" VerticalAlignment="Center"/>
 
     </Canvas>
 </Window>

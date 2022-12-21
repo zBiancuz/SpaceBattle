@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -44,6 +46,9 @@ namespace SpaceBattle
         {
             InitializeComponent();
 
+            MenuGioco M = new MenuGioco();
+         
+
             gameTimer.Interval = TimeSpan.FromMilliseconds(29);
             gameTimer.Tick += GameLoop;
             gameTimer.Start();
@@ -69,6 +74,9 @@ namespace SpaceBattle
             ImageBrush playerImage2 = new ImageBrush();
             playerImage2.ImageSource = new BitmapImage(new Uri("pack://application:,,,/image/player2.png"));
             player2.Fill = playerImage2;
+
+            M.ShowDialog();
+
         }
 
         private void GameLoop(object sender, EventArgs e)
@@ -334,5 +342,6 @@ namespace SpaceBattle
             MyCanvas.Children.Add(newEnemy);
 
         }
+
     }
 }

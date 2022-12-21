@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 R:\Desktop\SpaceBattle\SpaceBattle\App.xaml
-21601777133
+41075657495
 
-7-1250760145
+91125433957
 13-1310406943
-MainWindow.xaml;MenuGioco.xaml;
+HelpPage.xaml;MainWindow.xaml;MenuGioco.xaml;SettingsPage.xaml;
 
-False
+True
 

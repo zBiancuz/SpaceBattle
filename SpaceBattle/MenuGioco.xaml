@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/SfondoGioco.jpg"/>
         </Grid.Background>
-        <Label Content="SpaceBattle" HorizontalAlignment="Center" Margin="228,45,237,0" VerticalAlignment="Top" Height="78" Width="327" FontSize="60" FontFamily="OCR A Extended">
+        <Label Content="SpaceBattle" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Height="78" Width="412" FontSize="60" FontFamily="OCR A Extended">
             <Label.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>
@@ -18,7 +18,7 @@
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>
-        <Button x:Name="btnStartGame" Content="PLAY GAME!" HorizontalAlignment="Left" Margin="327,168,0,0" VerticalAlignment="Top" Height="50" Width="130" FontSize="20" FontWeight="Bold" Click="LoadGame">
+        <Button x:Name="btnStartGame" Content="PLAY GAME!" HorizontalAlignment="Left" Margin="327,123,0,0" VerticalAlignment="Top" Height="50" Width="130" FontSize="20" FontWeight="Bold" Click="LoadGame">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>
@@ -26,7 +26,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btnSettings" Content="SETTINGS" HorizontalAlignment="Left" Margin="327,241,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="20" Height="50" Width="130">
+        <Button x:Name="btnSettings" Content="SETTINGS" HorizontalAlignment="Left" Margin="327,185,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="20" Height="50" Width="130" Click="btnSettings_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>
@@ -34,7 +34,15 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="btnHelp" Content="HELP" HorizontalAlignment="Left" Margin="327,312,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="20" Width="130" Height="50">
+        <Button x:Name="btnHelp" Content="HELP" HorizontalAlignment="Left" Margin="327,247,0,0" VerticalAlignment="Top" FontFamily="OCR A Extended" FontSize="20" Width="130" Height="50" Click="btnHelp_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF9419FF" Offset="0.7"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnEsci" Content="ESCI" HorizontalAlignment="Left" Margin="327,332,0,0" VerticalAlignment="Top" Height="50" Width="130" FontSize="20" FontFamily="OCR A Extended" Click="btnEsci_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>
