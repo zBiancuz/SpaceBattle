@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/SfondoGioco.jpg"/>
         </Grid.Background>
-        <Label Content="SpaceBattle" HorizontalAlignment="Center" Margin="0,38,0,0" VerticalAlignment="Top" Height="78" Width="416" FontSize="60" FontFamily="OCR A Extended">
+        <Label Content="SpaceBattle" HorizontalAlignment="Center" Margin="228,45,237,0" VerticalAlignment="Top" Height="78" Width="327" FontSize="60" FontFamily="OCR A Extended">
             <Label.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="1"/>
