@@ -17,4 +17,4 @@
         <Label Name="TotalScorePlayer" Content="TotalScore: 0" FontSize="18" FontWeight="Bold" Canvas.Right="550" Foreground="White" HorizontalAlignment="Left" Canvas.Left="391" VerticalAlignment="Center"/>
 
     </Canvas>
-</Window>
+    </Window>

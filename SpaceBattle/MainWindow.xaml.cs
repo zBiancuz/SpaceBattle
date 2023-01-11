@@ -47,7 +47,7 @@ namespace SpaceBattle
             InitializeComponent();
 
             MenuGioco M = new MenuGioco();
-         
+
 
             gameTimer.Interval = TimeSpan.FromMilliseconds(29);
             gameTimer.Tick += GameLoop;
@@ -97,7 +97,7 @@ namespace SpaceBattle
                 GeneraNemici();
                 enemyCounter = limit;
             }
-            
+
 
             if (MuoviSinistra1 == true && Canvas.GetLeft(player1) > 0)
             {
@@ -117,12 +117,12 @@ namespace SpaceBattle
             }
 
 
-            
+
             MuoviSinistra1 = false;
             MuoviDestra1 = false;                  //TASTI PER FAR MUOVERE  
             MuoviSinistra2 = false;                   //DA COMMENTARE
             MuoviDestra2 = false;
-            
+
 
 
             //PROIETTILI ROSSI GIOCATORE 1
@@ -133,7 +133,7 @@ namespace SpaceBattle
                     Canvas.SetTop(x, Canvas.GetTop(x) - 20);
 
                     Rect bulletHitBox = new Rect(Canvas.GetLeft(x), Canvas.GetTop(x), x.Width, x.Height);
-                    
+
                     if (Canvas.GetTop(x) < 10)
                     {
                         itemRemover.Add(x);
@@ -143,7 +143,7 @@ namespace SpaceBattle
                     {
                         if (y is Rectangle && (string)y.Tag == "enemy")
                         {
-                            Rect enemyHit = new Rect (Canvas.GetLeft(y), Canvas.GetTop(y), y.Width, y.Height);
+                            Rect enemyHit = new Rect(Canvas.GetLeft(y), Canvas.GetTop(y), y.Width, y.Height);
 
                             if (bulletHitBox.IntersectsWith(enemyHit))
                             {
@@ -219,7 +219,7 @@ namespace SpaceBattle
 
             //FINE GIOCO E MESSAGGIO FINE PER IRCOMINCIARE 
 
-            if (totalScore > 200 )
+            if (totalScore > 200)
             {
                 limit = 20;
                 enemySpeed = 15;
@@ -273,10 +273,10 @@ namespace SpaceBattle
                 Canvas.SetLeft(newBullet, Canvas.GetLeft(player1) + player1.Width / 2);
                 Canvas.SetTop(newBullet, Canvas.GetTop(player1) - newBullet.Height);
 
-                MyCanvas.Children.Add(newBullet);    
+                MyCanvas.Children.Add(newBullet);
             }
 
-            if (e.Key == Key.Up) 
+            if (e.Key == Key.Up)
             {
                 Rectangle newBullet = new Rectangle
                 {
@@ -309,10 +309,10 @@ namespace SpaceBattle
         {
             ImageBrush enemySprite = new ImageBrush();
             enemySpriteCounter = rand.Next(1, 5);
-            switch(enemySpriteCounter)
+            switch (enemySpriteCounter)
             {
                 case 1:
-                    enemySprite.ImageSource = new BitmapImage(new Uri ("pack://application:,,,/image/1.png"));
+                    enemySprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/image/1.png"));
                     break;
                 case 2:
                     enemySprite.ImageSource = new BitmapImage(new Uri("pack://application:,,,/image/2.png"));

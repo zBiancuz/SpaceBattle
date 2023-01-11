@@ -49,7 +49,7 @@ namespace SpaceBattle
         private void btnEsci_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
-            
+
         }
     }
 }
