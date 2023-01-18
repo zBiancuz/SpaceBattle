@@ -31,6 +31,8 @@ namespace SpaceBattle
 
         private void LoadGame(object sender, RoutedEventArgs e)
         {
+            Client cl = new Client();
+            cl.Connect("Matteo");
             this.Close();
         }
 

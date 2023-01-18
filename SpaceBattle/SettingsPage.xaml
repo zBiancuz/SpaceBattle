@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="SettingsPage" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnIndietro" Content="Indietro" HorizontalAlignment="Left" Margin="191,122,0,0" VerticalAlignment="Top" Height="62" Width="132" Click="btnIndietro_Click"/>
-
+        <Grid.Background>
+            <ImageBrush ImageSource="/SfondoGioco.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btnIndietro" Content="Indietro" HorizontalAlignment="Center" Margin="0,305,0,0" VerticalAlignment="Top" Height="75" Width="125" Click="btnIndietro_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="1"/>
+                    <GradientStop Color="#FF9419FF" Offset="0.7"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>
